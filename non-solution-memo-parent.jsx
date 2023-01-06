@@ -21,7 +21,7 @@ const ClickableComponent = ({ children }) => {
   return (
     <div onClick={() => setCounter(counter++)}>
       Counter: {counter}
-      {children()}
+      {children}
     </div>
   );
 };
