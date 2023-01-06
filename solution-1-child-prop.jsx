@@ -1,6 +1,5 @@
 /*
-Solution 1: Extract ChildComponent outside and pass it as children.
-
+Solution 1: extract ChildComponent outside and pass it as children.
 - The <ChildComponent/> element is created in <AnotherComponent/>, it "belongs" to <AnotherComponent />.
 - When <ClickableComponent/> re-renders because of its state change, its props stay the same.
 - So, any element that comes from props will not be re-created, so <ChildComponent/> will not be re-rendered on every mouse click.
