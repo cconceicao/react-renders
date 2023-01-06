@@ -60,3 +60,8 @@ const Parent = () => {
   return <div>{child}</div>;
 };
 ````
+
+
+
+# Sources
+[The great article "The mystery of React Element, children, parents and re-renders" from Nadia Makarevich](https://www.developerway.com/posts/react-elements-children-parents)
