@@ -1,17 +1,21 @@
+/*
+React components re-render themselves and all their children when the state is updated.
+On every mouse click the state of ClickableComponent is updated, its re-render is triggered, and so, ChildComponent will re-render as well.
+*/
 import { useState } from "react";
 
-export const Children = () => {
+export const ChildComponent = () => {
   console.log("Children re-render.");
   return <div>Children</div>;
 };
 
-export const ParentOne = () => {
+const ClickableComponent = () => {
   const [counter, setCounter] = useState(1);
 
   return (
-    <div className="case">
+    <div onClick={() => setCounter(counter++)}>
       Counter: {counter}
-      <Children />
+      <ChildComponent />
     </div>
   );
 };
