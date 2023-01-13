@@ -17,6 +17,7 @@ Unnecessary re-renders by themselves are not a problem but if they happen too of
 1. [State changes](https://github.com/cconceicao/react-renders/blob/main/re-renders/re-render-state-changes.jsx)
 2. [Parent re-renders](https://github.com/cconceicao/react-renders/blob/main/re-renders/parent-re-renders.jsx)
 3. [Context changes](https://github.com/cconceicao/react-renders/blob/main/re-renders/re-render-context-changes.jsx)
+4. [Hooks changes](https://github.com/cconceicao/react-renders/blob/main/re-renders/re-render-hooks-changes.jsx)
 
 # Sources
 ["React re-renders guide: everything, all at once" from Nadia Makarevich](https://www.developerway.com/posts/react-re-renders-guide)
